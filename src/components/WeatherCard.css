@@ -1,0 +1,21 @@
+/* WeatherCard.css */
+.weather-card {
+  background-color: #ffffff;
+  padding: 1.2rem;
+  margin: 1rem auto;
+  width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: "Segoe UI", sans-serif;
+  transition: all 0.3s ease-in-out;
+}
+
+.weather-card:hover {
+  transform: scale(1.05);
+}
+
+.weather-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.6rem;
+}
